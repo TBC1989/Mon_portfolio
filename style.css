@@ -356,6 +356,7 @@ footer{
     align-items: center;
     color: var(--var-text-color-dark);
 }
+/*configuration de la barre des reseau*/
 .reseau{
     position: fixed;
     top: 300px;
