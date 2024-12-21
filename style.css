@@ -7,6 +7,17 @@
     box-sizing: border-box;
 }
 
+#mon_bouton{
+    width: 14rem;
+    font-weight: 900;
+    height: 3rem;
+    color:darkgreen;
+    padding: 0.7rem 1rem;
+    background-color: var(--var-bg-light);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 html{
     --var-bg-color:#7743e9;
     --var-secondary-color:#6e51cf;

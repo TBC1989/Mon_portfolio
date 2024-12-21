@@ -1,1 +1,5 @@
-alert("bienvenu sur le portfolio de thibaut DevOps")
+document.getElementById("mon_bouton").onclick=
+
+function(){
+    window.print();
+};
