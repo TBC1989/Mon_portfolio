@@ -58,9 +58,10 @@ h2{
     font-weight: 900;
     color: #6e51cf;
 }
-iframe{
-    pointer-events:none;
-    border-color: black;
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*je suis entrain entrain de creer mes spans pour
@@ -270,7 +271,7 @@ main{
     margin-top: 2rem;
     display: flex;
     height: calc(100vh-200px);
-    background-color: #131212;
+    background-color:  #0b0b0e;
 }
 
 #contact .partie1, .partie2{
@@ -283,7 +284,7 @@ main{
 }
 
 #contact .partie1{
-    background-color: #101011;
+    background-color: #0b0b0e;
     display: flex;
     flex-direction: column;
     justify-content: center;
