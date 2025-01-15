@@ -35,6 +35,16 @@ body{
     color: var(--var-text-color-dark);
 }
 
+/*j'unitialise d'abord la couleur de texte pour mon resume*/
+.pro{
+    color: black;
+    font-weight: 700;
+}
+
+#pros{
+    background-color:#9484c7;
+}
+
 header{
     height: 4rem;
     background-color: rgb(7, 7, 7);
