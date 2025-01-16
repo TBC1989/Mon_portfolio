@@ -1,14 +1,17 @@
 /*initialisation de la page*/
 .bou,h1{
     font-family: "Rubik Vinyl", serif;
-  font-weight: 250;
-  font-style: normal;
-}
-main{
-    font-family: "Titillium Web", serif;
-    font-weight: 500;
+    font-weight: 250;
     font-style: normal;
 }
+
+main, .home, .resume, .conb, button{
+    font-family: "Source Code Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
 
 #mon_bouton{
     width: 14rem;
@@ -31,23 +34,27 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:#333;
+    background-color:rgb(196, 187, 187);
     color: var(--var-text-color-dark);
+    width: 100%;
+    height: 100%;
 }
 
 /*j'unitialise d'abord la couleur de texte pour mon resume*/
-.pro{
+.pro, .bbc{
     color: black;
     font-weight: 700;
+    display: column;
 }
 
-#pros{
+.pros{
     background-color:#9484c7;
 }
 
 header{
-    height: 4rem;
-    background-color: rgb(7, 7, 7);
+    width: 100%;
+    height: 100%;
+    background-color: white;
     padding: 0 2rem;
     text-align: center;
     display: flex;
@@ -55,7 +62,6 @@ header{
     align-items: center;
     position: sticky;
     top: 0;
-    width: 100%;
     color: blue;
     z-index: 1000;
 }
@@ -68,6 +74,8 @@ h2{
     color: #6e51cf;
 }
 .img{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,21 +130,12 @@ header button:hover{
     border: 1px solid var(--var-secondary-color);
 }
 
-main{
-    padding: 0.3rem;
-    width: 100%;
-}
 
 #hero{
     width: 100%;
-    height: 70vh;
-    border-radius: 5px;
+    height: 100%;    
     padding: 1rem;
-    background: linear-gradient(
-        90deg,
-        var(--var-bg-color) 15%,
-        var(--var-secondary-color) 100%
-    );
+    background: rgb(175, 133, 133);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,13 +152,15 @@ main{
     color: var(--var-text-color);
 }
 
+
+
 .gauche button{
     background-color: var(--var-bg-light);
     color: green;
     margin-top: 1.4rem;
     border: none;
     padding: 0.9rem 1rem;
-    border-radius: 1.3rem;
+    border-radius: 1rem;
     font-weight: 900;
     cursor:pointer;
 }
@@ -195,21 +196,21 @@ main{
 }
 
 .cercle:nth-child(1) {
-    background: linear-gradient(90deg, var(--var-bg-color) 15%, #9b8dc8 100%);
+    background: linear-gradient(90deg, white 15%, #38363b 100%);
     position: absolute;
     right: 10px;
     animation-delay: 1s;
 }
     
 .cercle:nth-child(2){
-    background : linear-gradient(90deg,var(--var-bg-color) 15%, #9484c7 100%);
+    background : linear-gradient(90deg,white 15%, #38363b 100%);
     position: absolute;
     left: 10px;
     animation-delay: 0.5s;
 }
 
 .cercle:nth-child(3){
-    background : linear-gradient(90deg,var(--var-bg-color) 15%, #9b8dc8 100%);
+    background : linear-gradient(90deg,white 15%, #38363b 100%);
     position: absolute;
     top: 10px;
     left: 100px;
@@ -351,7 +352,7 @@ main{
 footer{
     width: 100%;
     height: 100px;
-    background-color: rgb(175, 168, 168);
+    background-color:rgb(175, 133, 133);
     margin-top: 3rem;
     display: flex;
     justify-content: center;
