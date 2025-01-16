@@ -1,11 +1,14 @@
 /*initialisation de la page*/
-.bou,h1{
+h1{
     font-family: "Rubik Vinyl", serif;
     font-weight: 250;
     font-style: normal;
 }
+.bou{
+    font-weight: 900;
+}
 
-main, .home, .resume, .conb, button{
+main, .home, .resume, .conb, button,h3{
     font-family: "Source Code Pro", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -34,21 +37,23 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:rgb(196, 187, 187);
+    background-color:rgb(99, 85, 85);
     color: var(--var-text-color-dark);
     width: 100%;
     height: 100%;
-}
+}   
 
 /*j'unitialise d'abord la couleur de texte pour mon resume*/
 .pro, .bbc{
     color: black;
     font-weight: 700;
     display: column;
+    width: 100%;
+    height: 100%;
 }
 
 .pros{
-    background-color:#9484c7;
+    background-color: rgb(175, 133, 133);
 }
 
 header{
@@ -88,7 +93,6 @@ mes ecritures sur mon portfolio*/
     color: rgb(49, 35, 17);
     font-weight: 900;
     transition: 3ms;
-    background-color: #9484c7;
 }
 .web{
     color: rgb(34, 11, 88);
@@ -228,60 +232,12 @@ header button:hover{
     }
 }
 
-#services{
-    margin-top: 2rem;
-}
-
-#services h2{
-    font-size: 2rem;
-    font-weight: 900;
-    color: var(--var-text-color-dark);
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.services-list {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.services-list .card-service{
-    flex: 1;
-    background-color: #161313;
-    padding: 1rem;
-    border-radius: 5px;
-    position: relative;
-}
-
-.card-service .icon{
-    width: 50px;
-    height: 50px;
-    background-color: #dbdbf1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    position: absolute;
-    top: -25px;
-}
-
-.card-service .icon i{
-    font-size: 1.3rem;
-    color: var(--var-text-color);
-}
-
-.card-service h3{
-    margin-top: 1rem;
-}
 
 #contact {
     margin-top: 2rem;
     display: flex;
     height: calc(100vh-200px);
-    background-color:  #0b0b0e;
+    background-color:   rgb(175, 133, 133);
 }
 
 #contact .partie1, .partie2{
@@ -294,7 +250,7 @@ header button:hover{
 }
 
 #contact .partie1{
-    background-color: #0b0b0e;
+    background-color:  rgb(175, 133, 133);
     display: flex;
     flex-direction: column;
     justify-content: center;
